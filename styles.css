@@ -1,0 +1,19 @@
+
+
+
+body{
+	text-align: center;
+	margin: 10%;
+	font-size: 2rem;
+	
+}
+
+.select{
+	font-size: 2rem;
+}
+
+button{
+	height: 40px;
+	width: 90px;
+}
+

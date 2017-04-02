@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Currency Convertor</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+ 
+ 
+<body onLoad="addOption_list()">
+ 
+  <form name="drop_list" action="yourpage.php" method="POST" >
+    <p >Please select the initial currency</p>
+    <select id="initialCurr" name="initialCurr">
+<option value="" >Initial Currency</option>
+    </select>
+<p>Please select the final currency</p>
+    <select id="finalCur" name="finalCur">
+<option value="" >Final Currency</option>
+    </select>
+</form>
+ 
+  <p>Please enter amount here</p>
+  <input id="amount">
+ 
+ 
+  <button type="submit" onclick="UserAction()">Search</button>
+
+  <script src="app.js"></script>
+
+  </html>
+</body>
+
+
+
+	
